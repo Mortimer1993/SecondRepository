@@ -4,9 +4,7 @@ package ru.shirinov.course12.FinalProjectRestApp.models;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
-
 import java.io.Serializable;
-import java.util.List;
 
 @Entity
 @Table(name = "sensor")

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.shirinov.course12.FinalProjectRestApp.models.Sensor;
 import ru.shirinov.course12.FinalProjectRestApp.repositories.SensorRepositories;
-
 import java.util.Optional;
 
 @Service

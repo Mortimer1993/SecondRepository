@@ -10,9 +10,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.shirinov.course12.FinalProjectRestApp.dto.MeasurementDTO;
 import ru.shirinov.course12.FinalProjectRestApp.dto.MeasurementsResponse;
-import ru.shirinov.course12.FinalProjectRestApp.dto.SensorDTO;
 import ru.shirinov.course12.FinalProjectRestApp.models.Measurement;
-import ru.shirinov.course12.FinalProjectRestApp.models.Sensor;
 import ru.shirinov.course12.FinalProjectRestApp.services.MeasurementService;
 import ru.shirinov.course12.FinalProjectRestApp.utils.MeasurementErrorResponse;
 import ru.shirinov.course12.FinalProjectRestApp.utils.MeasurementException;
@@ -21,7 +19,7 @@ import java.util.stream.Collectors;
 import static ru.shirinov.course12.FinalProjectRestApp.utils.ErrorUtil.returnErrorsToClient;
 
 @RestController
-@RequestMapping("/measurements")
+    @RequestMapping("/measurements")
 public class MeasurementsController {
     private final MeasurementService measurementService;
     private final MeasurementValidator measurementValidator;

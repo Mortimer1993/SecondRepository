@@ -2,7 +2,6 @@ package ru.shirinov.course12.FinalProjectRestApp.utils;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-
 import java.util.List;
 
 public class ErrorUtil {
